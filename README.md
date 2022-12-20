@@ -78,6 +78,18 @@ How I wish my computers/devices worked.
     * Change text/bg color based on active/inactive
     * Only show minimize/maximize/close buttons on hover
 
+
+### File Manager
+- oss, extendable, x-platform, fast
+- move files between instances
+- fuzzy finding and navigation
+- compress/extract files/dirs
+- file/image/video preview
+- git status coloring
+- configurable (theme, keymap, etc.)
+- editor integration
+
+
 ### Editor/IDE
 - **oss, extendable, x-platform, fast**
 - Light enough to be an editor, powerful enough to be an IDE

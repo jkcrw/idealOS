@@ -7,10 +7,11 @@ How I wish my computers/devices worked.
 - [Vision](#vision)
     + [General](#general)
     + [Specifics](#specifics)
-- [FS Structure](#fs-structure)
+- [Filesystem](#filesystem)
     + [Naming Conventions](#naming-conventions)
 - [Apps](#apps)
     + [Window Manager](#window-manager)
+    + [File Manager](#file-manager)
     + [Editor/IDE](#editoride)
 
 <!-- /MarkdownTOC -->
@@ -33,7 +34,7 @@ How I wish my computers/devices worked.
 - Text editing superpowers everywhere (modal/non-modal).
 - Support legacy Windows, Linux, macOS, Android, iOS apps.
 
-## FS Structure
+## Filesystem
 ```
 /
 ├── .os                         Single directory for *all* OS junk
@@ -53,7 +54,7 @@ How I wish my computers/devices worked.
     │       └── <thing>
     │
     ├── dev                     Software projects
-    │   ├── _archived           Convention to get retired projects out of sight
+    │   ├── _arc                Archive (convention to get retired stuff out of sight)
     │   └── <project>
     │
     ├── langs                   Language-learning projects

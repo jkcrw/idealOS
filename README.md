@@ -34,7 +34,7 @@ How I wish my computers/devices worked.
 - Text editing superpowers everywhere (modal/non-modal).
 - Support legacy Windows, Linux, macOS, Android, iOS apps.
 
-## Filesystem
+## Structure
 ```
 /
 ├── .os                         Single directory for *all* OS junk
@@ -46,7 +46,7 @@ How I wish my computers/devices worked.
     │   │   └── <app>           Single directory for each app and *all* its junk
     │   └── _env                System/environment settings and stuff (themes, fonts, package lists)
     │
-    ├── archives                Second brain/notes and reference data that mostly just sits there
+    ├── arc                     Second brain/archives, reference data that mostly just sits there
     │   ├── _logistics          Life logistics I don't care too much about (house/car/finances)
     │   ├── _media              Books/music/movies/shows
     │   └── jiki                Interesting things I actually care about
@@ -57,7 +57,7 @@ How I wish my computers/devices worked.
     │   ├── _arc                Archive (convention to get retired stuff out of sight)
     │   └── <project>
     │
-    ├── langs                   Language-learning projects
+    ├── langs                   Natural language-learning projects
     │
     └── work                    A necessary evil
         ├── _admin              Resumes, credentials, job apps, etc.

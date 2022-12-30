@@ -7,9 +7,12 @@ How I wish my computers/devices worked.
 - [Vision](#vision)
     + [General](#general)
     + [Specifics](#specifics)
-- [Filesystem](#filesystem)
+- [Structure](#structure)
     + [Naming Conventions](#naming-conventions)
-- [Apps](#apps)
+- [System](#system)
+    + [Shell](#shell)
+    + [Terminal](#terminal)
+    + [Filesystem](#filesystem)
     + [Window Manager](#window-manager)
     + [File Manager](#file-manager)
     + [Editor/IDE](#editoride)
@@ -71,7 +74,11 @@ How I wish my computers/devices worked.
 - no prefix - For all standard content.
 
 
-## Apps
+## System
+### Shell
+### Terminal
+### Filesystem
+
 ### Window Manager
 - Titlebars:
     * No icons

@@ -39,7 +39,7 @@ How I wish my computers/devices worked.
 
 ## Structure
 ```
-/
+/                               Filesystem root
 ├── .os                         Single directory for *all* OS junk
 └── <user>                      Single directory for each user
     ├── .config                 Single directory for all user apps and configuration
@@ -49,29 +49,39 @@ How I wish my computers/devices worked.
     │   │   └── <app>           Single directory for each app and *all* its junk
     │   └── _env                System/environment settings and stuff (themes, fonts, package lists)
     │
-    ├── arc                     Second brain/archives, reference data that mostly just sits there
-    │   ├── _logistics          Life logistics I don't care too much about (house/car/finances)
-    │   ├── _media              Books/music/movies/shows
-    │   └── jiki                Interesting things I actually care about
-    │       ├── _journals       Life journal + topic-focused journals
+    ├── arc                     Life archives - reference data that mostly just sits there
+    │   ├── _arc                Archive of retired or inactive life pursuits
+    │   ├── _lgx                Life logistics (car/house/medical/etc.)
+    │   ├── cdx                 Codex - codices to study and enjoy (books/music/movies/etc.)
+    │   ├── navi                Public PKMS of notes taken during study/enjoyment of the Codex
+    │   └── kiki                Private PKMS of personal thoughts and other private info
+    │       ├── _journal        Life journal + topical journals
     │       └── <thing>
     │
-    ├── dev                     Software projects
-    │   ├── _arc                Archive (convention to get retired stuff out of sight)
+    ├── dev                     Engineering projects
+    │   ├── _arc                Archive of retired or inactive projects
+    │   ├── _lgx                Logistics (workspaces, scratch files, etc.)
     │   └── <project>
     │
-    ├── langs                   Natural language-learning projects
+    ├── lang                    Natural language learning projects
+    │   ├── _lang               Language learning framework and progress tracking
+    │   └── <xy>                ISO 639-1 two-letter language code
     │
     └── work                    A necessary evil
         ├── _admin              Resumes, credentials, job apps, etc.
         ├── _training           Institutional learning + other formal education/courses
-        └── <job>
+        └── <job>               One directory per company/position
 ```
 
 ### Naming Conventions
-- `.` prefix - For hidden directories, to be sorted first and out of the way.
-- `_` prefix - For meta-directories, to be sorted after hidden.
-- no prefix - For all standard content.
+#### Prefixes
+- `.` prefix - Hidden directories (to be sorted first and out of the way).
+- `_` prefix - Meta-directories (to be sorted after hidden).
+- no prefix - Standard data.
+
+#### Patterns
+- `_arc` - Archive. Convention for quarantining retired data.
+- `_lgx` - Logistics. Convention for quarantining boring but necessary data.
 
 
 ## System

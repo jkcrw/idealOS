@@ -2,7 +2,7 @@
 How I wish my computers/devices worked.
 
 ### Content
-<!-- MarkdownTOC -->
+<!-- MarkdownTOC levels="1,2,3" -->
 
 - [Vision](#vision)
     + [General](#general)
@@ -39,39 +39,39 @@ How I wish my computers/devices worked.
 
 ## Structure
 ```
-/                               Filesystem root
-├── .os                         Single directory for *all* OS junk
-└── <user>                      Single directory for each user
-    ├── .config                 Single directory for all user apps and configuration
-    │   ├── _admin
-    │   │   └── _bootstrap.sh   Set up a new computer with all apps and data configured perfectly
-    │   ├── _apps
-    │   │   └── <app>           Single directory for each app and *all* its junk
-    │   └── _env                System/environment settings and stuff (themes, fonts, package lists)
+/                            Root
+├── .os                      OS directory (one place for *all* OS junk)
+└── <user>                   User directory (one per user)
+    ├── .cfg                 Single directory for all user apps and config
+    │   ├── _src             System admin scripts
+    │   ├── _env             System/environment settings (themes, fonts, package lists)
+    │   └── <app>            App (one place for app and *all* its junk)
     │
-    ├── arc                     Life archives - reference data that mostly just sits there
-    │   ├── _arc                Archive of retired or inactive life pursuits
-    │   ├── _lgx                Life logistics (car/house/medical/etc.)
-    │   ├── cdx                 Codex - codices to study and enjoy (books/music/movies/etc.)
-    │   ├── navi                Public PKMS of notes taken during study/enjoyment of the Codex
-    │   └── kiki                Private PKMS of personal thoughts and other private info
-    │       ├── _journal        Life journal + topical journals
-    │       └── <thing>
+    ├── arc                  The Archives
+    │   ├── _arc             Archive of retired or inactive life pursuits
+    │   ├── _lgx             Life logistics (car/house/medical/etc.)
+    │   ├── cdx              The Codex - personal library (books/music/movies/etc)
+    │   ├── navi             Public PKMS for notes taken during study of the Codex
+    │   └── crow             Private PKMS for personal thoughts and other private info
+    │       ├── _jnl         Life journals + topical journals
+    │       └── <topic>      Active topic
     │
-    ├── dev                     Engineering projects
-    │   ├── _arc                Archive of retired or inactive projects
-    │   ├── _lgx                Logistics (workspaces, scratch files, etc.)
-    │   └── <project>
+    ├── dev                  Engineering Projects
+    │   ├── _arc             Archive of retired or inactive projects
+    │   ├── _lgx             Logistics (scratch files, workspaces, etc.)
+    │   └── <proj>           Active project
     │
-    ├── lang                    Natural language learning projects
-    │   ├── _lang               Language learning framework and progress tracking
-    │   └── <xy>                ISO 639-1 two-letter language code
+    ├── lang                 Natural Language Learning Projects
+    │   ├── _rosita          Language learning framework and progress tracking
+    │   └── <xy>             ISO 639-1 two-letter language code
     │
-    └── work                    A necessary evil
-        ├── _admin              Resumes, credentials, job apps, etc.
-        ├── _training           Institutional learning + other formal education/courses
-        └── <job>               One directory per company/position
+    └── work                 A Necessary Evil
+        ├── _admin           Resumes, credentials, job apps, etc.
+        ├── _training        Institutional learning + other formal education/courses
+        └── <job>            One directory per company/position
 ```
+
+\_init.sh     Set up a new computer perfectly and effortlessly
 
 ### Naming Conventions
 #### Prefixes

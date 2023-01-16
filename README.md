@@ -90,11 +90,13 @@ How I wish my computers/devices worked.
 ### Filesystem
 
 ### Window Manager
-- Titlebars:
+- Titlebars
     * No icons
     * Center text
     * Change text/bg color based on active/inactive
     * Only show minimize/maximize/close buttons on hover
+- Inspiration
+    * https://www.reddit.com/r/unixporn/comments/zos11o/hyprland_mocha/
 
 
 ### File Manager
@@ -137,3 +139,7 @@ How I wish my computers/devices worked.
 - command palette
 - nice config starter kits
 - healthy PKMS package
+
+
+### Music Visualizer
+- https://youtu.be/wAZ6MnVueNY?t=65

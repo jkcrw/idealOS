@@ -16,6 +16,7 @@ How I wish my computers/devices worked.
     + [Window Manager](#window-manager)
     + [File Manager](#file-manager)
     + [Editor/IDE](#editoride)
+    + [Music Visualizer](#music-visualizer)
 
 <!-- /MarkdownTOC -->
 
@@ -113,20 +114,24 @@ How I wish my computers/devices worked.
 ### Editor/IDE
 - **oss, extendable, x-platform, fast**
 - Light enough to be an editor, powerful enough to be an IDE
-- ui
+- basic features
+    + workspaces
+    + sidebar (vcs-aware)
+    + file tabs (vcs-aware)
+    + statusline (vcs-aware)
+    + regex find/repl (current file; open files/directories)
+    + command palette
+    + multiple cursors
+    + snippets
     + minimap
-    + themable/schemable
-    + git-aware project tree/tabs/statusline
-- multiple cursors
+- ui fully themable/schemable
 - git integration
     + status/log/add/commit/push/pull
     + jump to next/prev change
     + revert change on line
+    + preview change inline
     + add/commit hunks
     + minidiff gutter
-- regex find/repl (current file; open files/directories)
-- workspaces
-- snippets
 - fuzzy-find symbols/files/everything
 - jump to next/prev symbol
 - inline colorcode highlighting
@@ -136,7 +141,6 @@ How I wish my computers/devices worked.
     + jump to definition
     + hoverdocs
 - DAP support
-- command palette
 - nice config starter kits
 - healthy PKMS package
 
